@@ -21,7 +21,7 @@ for problem in range(5,14):
     #Solve QUBO using Simulated Annealing from dwave:
     sampler = neal.SimulatedAnnealingSampler()
     start_time = time.time()
-    sampleset = sampler.sample_qubo(Final_Q, num_reads = 5000, num_sweeps = 1000)
+    sampleset = sampler.sample_qubo(Final_Q, num_reads = 3000, num_sweeps = 500)
     end_time = time.time()
     best_sample = sampleset.first.sample
 
