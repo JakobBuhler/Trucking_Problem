@@ -1,0 +1,4 @@
+- The file Truck_QUBO_1D creates the class for QUBO creation.  
+- File Functions_TruckProblem defines any functions necessary to make code cleaner and sort/map solution.   
+- File Plot_Truck_Solution plots our Solution for testing if all Constraints are met and Solution matches expectation.   
+- File Test_Algorithms_Truck uses the Turck Problem to test Algorithms and test their solution quality as well as runtime and finally plotting them.  
